@@ -1,10 +1,10 @@
-function sayHello(name) {
+function sayHello(name,name2) {
     console.log('.............');
-    console.log('Hello ' + name);
+    console.log('Hello ' + name +' '+ name2);
     console.log('.................')
 }
 
-sayHello('francis');
+sayHello('francis', 'micheal');
 
 // let a = sayHello;
 // a('john');
@@ -16,3 +16,7 @@ function calculateTax(total) {
 }
 let tax = calculateTax(10);
 console.log(tax);
+
+let hi = function (){
+    
+}

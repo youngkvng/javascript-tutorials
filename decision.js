@@ -29,5 +29,5 @@ switch(hero) {
 //ternary operator
 let a = 2;
 let b = '2';
-let result = ('a===b') ? 'equal' : 'inequal'
+let result = (a===b) ? 'equal' : 'inequal'
 console.log(result);

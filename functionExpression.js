@@ -17,3 +17,10 @@ timeout();
 (function() {
     console.log('Immediately Invoked Function Expression(IIfE)' );
 })();
+
+let hello = function() {
+    
+}
+let say = ()=>{
+    
+}
