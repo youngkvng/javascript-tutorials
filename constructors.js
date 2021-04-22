@@ -7,5 +7,5 @@ function car(make, model, year) {
     this.model = model;
     this.year = year;
 }
-let myCar = new car('bmw', '745li', 2010)
+let myCar = new Car('bmw', '745li', 2010)
 console.log(myCar)
